@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FAVICON ICON -->
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <!-- FONTAWESOME CSS FILE -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <!-- SCROLLCUE CSS -->
+  <link rel="stylesheet" href="css/scrollCue.css">
+  <!-- BOOTSTRAP CSS FILE  -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- MAIN CSS FILE -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- MAIN TITLE -->
+  <title>TRAVELLO | Travel Tour Website</title>
+</head>
+<body>
+  
+  <!-- START TOPBAR MENU -->
+  <div class="topbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-between">
+          <div class="phone">
+            <span><i class="fas fa-phone"> </i></span>
+            <span> +88 432 4323</span>
+          </div>
+          <div class="email">
+            <span><i class="fas fa-envelope"> </i></span>
+            <span> test@gmail.com</span>
+          </div>
+          <div class="item-right">
+            <ul class="social d-flex">
+              <li>
+                <a class="social-icon" href="www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-icon" href="www.twitter.com" target="_blank">
+                <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-icon" href="www.linkedin.com" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-icon" href="www.instagram.com" target="_blank">
+                <i class="fab fa-instagram-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END TOPBAR MENU -->
+  
+  <!-- START HEADER MENU -->
+  <header class="header-menu sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" class="header-img img-fluid" alt="img"> TRAVELO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#travel">Travel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hotel">Hotel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li> 
+          </ul>
+          <ul class="nav navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">My Account</a>
+                <div class="dropdown-menu dropdown-menu-end">
+                  <a href="#" class="dropdown-item">LOGIN</a>
+                  <a href="#" class="dropdown-item">REGISTER</a>
+                  <div class="dropdown-divider"></div>
+                  <a href="#" class="dropdown-item">LOGOUT</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Currency</a>
+            <div class="dropdown-menu dropdown-menu-end">
+              <a href="#" class="dropdown-item">USD</a>
+              <a href="#" class="dropdown-item">EURO</a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">SETTING</a>
+          </div>
+          </li>
+      </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- END HEADER MENU -->
+
+  <!-- START BANNER SECTION -->
+  <section class="banner">
+    <div class=".container-fluid">
+      <div class="content" data-cues="bounceIn"  data-delay="500">
+        <h2>Enjoy <span class="text">Your</span> Travel</h2>
+        <p>We're looking to make 2022 the best travel year. <br> Here's some inspiration to get you started.</p>
+        <div>
+          <button type="button"><span class="banner-btn"></span>Contact Us</button>
+          <button type="button"><span class="banner-btn"></span>More Info</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END BANNER SECTION -->
+
+  <!-- START SIGN UP SECTION -->
+  <section class="sign-up" id="about">
+    <div class="container py-5">
+      <h2 class="text-center uk-animation-scale-up; repeat: true"> Get Our Best Deal To Location</h2>
+      <div class="row">
+        <div class="email col-md-4 col-sm-12 mt-4">
+          <h5>Email Address</h5>
+          <div class="input-group flex-nowrap mt-3">
+            <span class="input-group-text" id="addon-wrapping">@</span>
+            <input type="email" class="form-control" placeholder="Enter Email Address" aria-label="email" aria-describedby="addon-wrapping">
+          </div>
+        </div>
+        <div class="location col-md-4 col-sm-12 mt-4">
+          <h5>Where You Go From</h5>
+          <select class="form-select mt-3" aria-label="Default select example">
+            <option selected>United State</option>
+          </select>
+        </div>
+        <div class="sign-btn col-md-4 col-sm-12 d-grid mt-4">
+          <h5>Sign Up Today</h5>
+          <button class="btn btn-primary" type="button">Sign Up Today</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END SIGN UP SECTION -->
+
+  <!-- START TOUR PACKAGE SECTION -->
+  <section class="tour py-5" id="travel">
+    <div class="container">
+      <div class="section-tittle text-center mb-5"  data-cues="bounceIn"  data-duration="600">
+        <h2>Our Tour Package</h2>
+        <p class="lead">Enjoy All Members Tour Lorem Ipsum Dolor Sit Amet.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12 mb-3">
+          <div class="package" data-cue="bounceInLeft"  data-duration="1000">
+            <img src="img/tour/tour1.jpg" class="package-img img-fluid"  alt="img">
+          <div class="content">
+            <div class="info">
+              <h3>United State</h3>
+              <p>7 Day,s From Here</p>
+              <div class="bottom d-flex justify-content-between">
+                <span class="currency">$264</span>
+                <div class="rating">
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="package" data-cue="bounceInRight"  data-duration="1000">
+            <img src="img/tour/tour2.jpg" class="package-img img-fluid" alt="img">
+          <div class="content">
+            <div class="info">
+              <h3>Sea Beach</h3>
+              <p>3 Day,s From Here</p>
+              <div class="bottom d-flex justify-content-between">
+                <span class="currency">$960</span>
+                <div class="rating">
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-6 col-sm-12 mb-3">
+          <div class="package" data-cue="bounceInLeft"  data-duration="1000">
+            <img src="img/tour/tour3.jpg" class="package-img img-fluid" alt="img">
+          <div class="content">
+            <div class="info">
+              <h3>Europe</h3>
+              <p>5 Day,s From Here</p>
+              <div class="bottom d-flex justify-content-between">
+                <span class="currency">$645</span>
+                <div class="rating">
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="package" data-cue="bounceInRight"  data-duration="1000">
+            <img src="img/tour/tour4.jpg" class="package-img img-fluid" alt="img">
+          <div class="content">
+            <div class="info">
+              <h3>Dubai</h3>
+              <p>6 Day,s From Here</p>
+              <div class="bottom d-flex justify-content-between">
+                <span class="currency">$470</span>
+                <div class="rating">
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- START TOUR PACKAGE SECTION -->
+
+  <!-- START FOOD SECTION -->
+  <section class="food pt-5" id="hotel">
+    <div class="container">
+      <div class="section-tittle text-center" data-cues="bounceIn"  data-duration="600">
+        <h2>Our Delicious Food</h2>
+        <p class="lead">Enjoy All Members Tour To Our All Delicious Foods.</p>
+      </div>
+      <div class="row py-5"  data-cues="fadeIn" data-duration="1000">
+        <div class="clip-img col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+          <div class="image-wrapper">
+            <img src="img/food/brea.jpg" class="food-img img-fluid" alt="img">
+          </div>
+        </div>
+        <div class="clip-img col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+          <div class="image-wrapper">
+            <img src="img/food/lunch.jpg" class="food-img img-fluid" alt="img">
+          </div>
+        </div>
+        <div class="clip-img col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+          <div class="image-wrapper">
+            <img src="img/food/dinner.jpg" class="food-img img-fluid" alt="img">
+          </div>
+        </div>
+        <div class="clip-img col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+          <div class="image-wrapper">
+            <img src="img/food/food1.jpg" class="food-img img-fluid" alt="img">
+          </div>
+        </div>
+        <div class="clip-img col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+          <div class="image-wrapper">
+            <img src="img/food/food2.jpg" class="food-img img-fluid" alt="img">
+          </div>
+        </div>
+        <div class="clip-img col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+          <div class="image-wrapper">
+            <img src="img/food/food3.jpg" class="food-img img-fluid" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END FOOD SECTION -->
+
+  <!-- START ROOM SECTION -->
+  <section class="room pt-5">
+    <div class="container">
+      <div class="section-tittle text-center mb-5" data-cues="bounceIn" data-duration="1000">
+        <h2>Our Relax Room</h2>
+        <p class="lead">Enjoy All Members Tour To Our Relax Room.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-12 mb-5">
+          <div class="relax-room" data-cue="bounceInLeft" data-duration="600">
+            <img src="img/room/room.jpg" class="room-img img-fluid" alt="img">
+            <div class="content">
+              <div class="text">Enjoying</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mb-5">
+          <div class="relax-room">
+            <img src="img/room/hotel1.jpg" class="room-img img-fluid" alt="img">
+            <div class="content">
+              <div class="text">Relaxing</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mb-5">
+          <div class="relax-room" data-cue="bounceInRight"  data-duration="1000">
+            <img src="img/room/hotel2.jpg" class="room-img img-fluid" alt="img">
+            <div class="content">
+              <div class="text">Sleeping</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END ROOM SECTION -->
+
+  <!-- START BRAND SECTION -->
+  <div class="brand">
+    <div class="container py-5">
+      <h2 class="text-center">Our Brand</h2>
+      <div class="row mt-5">
+        <div class="col-md-2">
+          <img class="img-fluid w-100" src="img/brand/1.png" alt="img">
+        </div>
+        <div class="col-md-2">
+          <img class="img-fluid w-100" src="img/brand/6.png" alt="img">
+        </div>
+        <div class="col-md-2">
+          <img class="img-fluid w-100" src="img/brand/3.png" alt="img">
+        </div>
+        <div class="col-md-2">
+          <img class="img-fluid w-100" src="img/brand/5.png" alt="img">
+        </div>
+        <div class="col-md-2">
+          <img class="img-fluid w-100" src="img/brand/2.png" alt="img">
+        </div>
+        <div class="col-md-2">
+          <img class="img-fluid w-100" src="img/brand/4.png" alt="img">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END BRAND SECTION -->
+
+  <!-- START BLOG SECTION -->
+  <section class="blog" id="blog">
+    <div class="container py-5">
+      <div class="section-tittle text-center" data-cues="bounceIn"  data-duration="600">
+        <h2>Our Latest Blog</h2>
+        <p class="lead">Enjoy All Members Tour To Our Relax Room.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+          <div class="card pb-3">
+            <img src="img/blog/blog1.jpg" class="card-img img-fluid w-100"  alt="img">
+            <div class="card-body text-center">
+              <h5 class="card-tittle mb-3">Travel Every Person</h5>
+              <p class="card-text mb-3">The latest travel news, guides, vacation tips and the photography of the best places to visit around the world... </p>
+              <div class="blog-text pb-4">
+                <span class="text-muted">Published: 12/08/2021</span>
+                <div class="bottom d-flex justify-content-between mt-2">
+                  <span class="currency">Start: 264$</span>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="card-btn text-center">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+          <div class="card pb-3">
+            <img src="img/blog/blog2.jpg" alt="img" class="card-img img-fluid w-100">
+            <div class="card-body text-center">
+              <h5 class="card-tittle mb-3">Travel Every Person</h5>
+              <p class="card-text">The latest travel news, guides, vacation tips and the photography of the best places to visit around the world... </p>
+              <div class="blog-text pb-4">
+                <span class="text-muted">Published: 12/12/2021</span>
+                <div class="bottom d-flex justify-content-between mt-2">
+                  <span class="currency">Start: 974$</span>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="card-btn text-center">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+          <div class="card pb-3">
+            <img src="img/blog/home.jpg" alt="img" class="card-img img-fluid w-100">
+            <div class="card-body text-center">
+              <h5 class="card-tittle mb-3">Travel Every Person</h5>
+              <p class="card-text">The latest travel news, guides, vacation tips and the photography of the best places to visit around the world... </p>
+              <div class="blog-text pb-4">
+                <span class="text-muted">Published: 21/06/2021</span>
+                <div class="bottom d-flex justify-content-between mt-2">
+                  <span class="currency">Start: 534$</span>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="card-btn text-center">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+          <div class="card pb-3">
+            <img src="img/blog/blog3.jpg" alt="img" class="card-img img-fluid w-100">
+            <div class="card-body text-center">
+              <h5 class="card-tittle mb-3">Travel Every Person</h5>
+              <p class="card-text">The latest travel news, guides, vacation tips and the photography of the best places to visit around the world... </p>
+              <div class="blog-text pb-4">
+                <span class="text-muted">Published: 28/10/2021</span>
+                <div class="bottom d-flex justify-content-between mt-2">
+                  <span class="currency">Start: 733$</span>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="card-btn text-center">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END BLOG SECTION -->
+
+  <!-- START CONTACT SECTION -->
+  <section class="contact py-5" id="contact">
+    <div class="container">
+      <div class="section-tittle text-center" data-cues="bounceIn"  data-duration="600">
+        <h2>Get Touch Me</h2>
+        <p class="lead">Please Contact The Form Your Information Here</p>
+      </div>
+      <div class="row contact-info">
+        <div class="col-md-6 mt-3">
+          <div class="form-group mb-3">
+            <label for="name" class="h4">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+          </div>
+          <div class="form-group mb-3">
+            <label for="email" class="h4">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+          </div>
+          <div class="form-group mb-3">
+            <label for="message" class="h4 ">Message</label>
+            <textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+          </div>
+          <div class="contact-btn">
+            <button type="submit" id="form-submit">Touch Me</button>
+          </div>
+        </div>
+        <div class="map col-md-6 mt-3">
+          <iframe class="mt-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58008816.09512292!2d-130.2325392811101!3d27.45128577720659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sbd!4v1639963136620!5m2!1sen!2sbd" width="520" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END CONTACT SECTION -->
+
+  <!-- START FOOTER SECTION -->
+  <section class="footer pt-5 pb-2">
+    <div class="container">
+      <hr>
+      <div class="row mb-4">
+        <div class="col-md-3 mt-4 text-center">
+          <h4>Get The App</h4>
+          <div class="app-img m-3">
+            <img src="./img/store1.png" class="img-fluid mt-2" alt="app">
+            <img src="./img/store2.png" class="img-fluid mt-2" alt="app">
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 text-center">
+          <h4>Information</h4>
+          <ul class="footer-list mx-3">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Shipping Policy</a></li>
+            <li><a href="">Tearms & Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mt-4 text-center">
+          <h4>User Area</h4>
+          <ul class="footer-list mx-3">
+            <li><a href="">My Account</a></li>
+            <li><a href="">My Cart</a></li>
+            <li><a href="">Ligin</a></li>
+            <li><a href="">Check In</a></li>
+            <li><a href="">Check Out</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mt-4 text-center">
+          <h4>Contact Us</h4>
+          <ul class="address mx-3">
+            <li><a href="">+88 435 7543</a></li>
+            <li><a href="">Los-Angela, California</a></li>
+            <li><a href="">test@gmail.com</a></li>
+          </ul>
+          <ul class="social d-flex justify-content-center mt-3">
+            <li>
+              <a class="social-icon" href="www.facebook.com" target="_blank">
+              <i class="fab fa-facebook-square fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a class="social-icon" href="www.twitter.com" target="_blank">
+              <i class="fab fa-twitter-square fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a class="social-icon" href="www.linkedin.com" target="_blank">
+              <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a class="social-icon" href="www.instagram.com" target="_blank">
+              <i class="fab fa-instagram-square fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright-text text-center">
+        <p>Copyright &copy; 2021. Powered By <span class="fw-bold" style="color: #f0932b">AL</span> <span class="fw-bold">AMIN</span></p>
+      </div>
+    </div>
+  </section>
+  <!-- END FOOTER SECTION -->
+
+  <!-- JQUERY FILE -->
+  <script src="js/vendor/jquery-3.6.0.min.js"></script>
+  <!-- JQUERY SCROLLIFY FILE -->
+  <script src="js/vendor/jquery.scrollify.js"></script>
+  <!-- MODERNIZER FILE -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <!-- SCROLLCUE FILE -->
+  <script src="js/vendor/scrollCue.js"></script>
+  <!-- bOOTSTRAP JAVASCRIPT FILE -->
+  <script src="js/vendor/bootstrap.bundle.min.js"></script>
+  <!-- MAIN JAVASCRIPT FILE -->
+  <script src="js/main.js"></script>
+</body>
+</html>

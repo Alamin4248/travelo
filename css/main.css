@@ -1,0 +1,449 @@
+
+/* ==========================================================================
+  Author       : AL AMIN
+  Template Name: TRAVELO - Travel Agency Template
+  Author URL   : alaminhossen.com
+  Description  : Tour Travel Agency Website, HTML5, Bootstrap5, clean code,  
+                 responsive, one page, business, corporate, landing page, modern, agency tempalte.
+  Version      : 1.0
+  ========================================================================== */
+
+/* 
+  01) COMPOMENT CSS
+  02) UTILITES CSS
+  03) TOPBAR CSS
+  04) NAVBAR MENU CSS
+  05) BANNER CSS
+  06) SIGN UP CSS
+  07) TOUR PACKAGE CSS
+  08) HOTEL CSS
+  09) ROOM CSS
+  10) BLOG CSS
+  11) CONTACT CSS
+  12) FOOTER CSS
+  13) MEDIA QUARIES
+*/
+
+/* ========================================= */
+/* COMPOMENT CSS */
+/* ========================================= */
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* ========================================= */
+/* UTILITES CSS */
+/* ========================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight:600;
+	font-family: "Poppins";
+	color: #000;
+}
+
+h1 { font-size: 45px; }
+h2 { font-size: 36px; }
+h3 { font-size: 30px; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 16px; }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* ========================================= */
+/* TOPBAR CSS */
+/* ========================================= */
+.topbar {
+  background: #130f40;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.topbar i {
+  padding-top: 4px;
+  margin: 0 5px;
+}
+.topbar .social-icon {
+  color: #fff;
+}
+.topbar .social-icon:hover {
+  color: #f0932b;
+}
+
+/* ========================================= */
+/* NAVBAR MENU CSS */
+/* ========================================= */
+.header-menu {
+  background: #686de0;
+}
+.header-menu .navbar-toggler {
+  background-color: #f0932b;
+  border: 1px solid #fff;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: #f0932b;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff; 
+}
+.header-menu .navbar-toggler:focus {
+  box-shadow: none;
+}
+.header-menu .navbar-brand {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.header-menu .navbar-brand:hover {
+  color: #f0932b;
+}
+.header-menu .header-img {
+  height: 40px;
+  width: 40px;
+}
+.header-menu .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.header-menu .navbar-nav .nav-link:hover {
+  color: #f0932b;
+}
+.header-menu  li a {
+  color: #fff;
+  font-weight: 600;
+}
+.header-menu li a:hover {
+  color: #f0932b;
+}
+.header-menu .dropdown-item {
+  color: #f0932b;
+}
+.nav-link:focus, .nav-link:hover {
+  color: #fff;
+}
+
+/* ========================================= */
+/* BANNER CSS */
+/* ========================================= */
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../img/home1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+.banner .content {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.banner .content h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.7;
+}
+.banner .content .text {
+  color: #f0932b;
+}
+.banner .content p {
+  color: #fff;
+}
+.banner .content button {
+  width: 200px;
+  padding: 10px 0;
+  border-radius: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #686de0;
+  margin: 20px 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.banner .content button span {
+  color: #fff;
+  background: #686de0;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 25px;
+  z-index: -1;
+  transition: 0.5s ease;
+}
+.banner .content button:hover span {
+  width: 100%;
+}
+
+/* ========================================= */
+/* SIGN UP CSS */
+/* ========================================= */
+.sign-up {
+  background-color: #ccc;
+}
+
+/* ========================================= */
+/* TOUR PACKAGE CSS */
+/* ========================================= */
+.tour .package {
+  position: relative;
+  background: #f5f6fa;
+  overflow: hidden;
+}
+.tour .package .package-img {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.tour .package .package-img:hover {
+  transform: scale(1.1);
+}
+.tour .package .content {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+}
+.tour .package .content h3 {
+  color: #fff;
+}
+.tour .package .content p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+}
+.tour .package .content .bottom {
+  border-top: 2px solid #fff;
+  padding: 20px 0;
+}
+.tour .package .content span {
+  color: #fff;
+  font-weight: 600;
+}
+.tour .package .content li {
+  display: inline-block;
+}
+.tour .package .content li i {
+  color: #f0932b;
+}
+
+/* ========================================= */
+/* HOTEL CSS */
+/* ========================================= */
+.food {
+  background: #c8d6e5;
+}
+.food .image-wrapper {
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+.food .food-img {
+  height: 300px;
+  width: 100%;
+  transition: 0.6s ease;
+}
+.food .food-img:hover {
+  transform: scale(1.1);
+}
+
+/* ========================================= */
+/* ROOM CSS */
+/* ========================================= */
+.room {
+  background: #f5f6fa;
+}
+.room .relax-room {
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease;
+  border-radius: 50px 0px 50px 0px;
+}
+.room .room-img {
+  height: 300px;
+  width: 100%;
+  transition: 0.5s ease;
+}
+.room .room-img:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+  
+}
+.room .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.room .relax-room:hover .content {
+  opacity: 1;
+}
+.room .content .text {
+  color: #fff;
+  background-color: #f0932b;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+/* ========================================= */
+/* BRAND CSS */
+/* ========================================= */
+.brand {
+  background: #ccc;
+}
+  
+/* ========================================= */
+/* BLOG CSS */
+/* ========================================= */
+.blog {
+  background: #ffffff;
+}
+.blog .card {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+.blog .card:hover {
+  transform: scale(1.05);
+}
+.blog .card-img {
+  height: 150px;
+}
+.blog .card .blog-text li {
+  display: inline-block;
+}
+.blog .card .blog-text li i {
+  color: #e67e22;
+}
+.blog .card-btn {
+  color: #fff;
+  background: #f0932b;
+  padding: 10px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.blog .card-btn:hover {
+  background: #e67e22;
+}
+
+/* ========================================= */
+/* CONTACT CSS */
+/* ========================================= */
+.contact {
+  background: #f5f6fa;
+}
+.contact .contact-info {
+  background: #f5f6fa;
+}
+.contact .contact-btn {
+  display: flex;
+  justify-content: center;
+}
+.contact .contact-btn button {
+  background-color: #f0932b;
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  padding: 7px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.contact .contact-btn button:hover {
+  background-color: #e67e22;
+}
+.contact .map {
+  overflow-x: hidden;
+}
+
+/* ========================================= */
+/* FOOTER CSS */
+/* ========================================= */
+.footer {
+  background: #130f40;
+} 
+.footer h4 {
+  color: #fff;
+} 
+.footer p {
+  color: #fff;
+}
+.footer ul li a {
+  color: #fff;
+}
+.footer ul  li {
+  margin: 0 5px;
+}
+.footer ul li a:hover {
+  color: #f0932b;
+}
+
+
+/* ========================================= */
+/* MEDIA QUARIES */
+/* ========================================= */
+/* SMALL DEVICE */
+@media (min-width: 360px) and (max-width: 767px) { 
+  .banner .content h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+ }
+ @media (max-width: 450px) {
+  .topbar {
+    display: none;
+  }
+}
